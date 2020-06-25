@@ -1,6 +1,6 @@
 # ConvProductSearchNF
-This is code for paper "Conversational Product Search Based on Negative Feedback" [1]
-- We adopt the same dataset and partition as HEM [2] [Link](https://github.com/QingyaoAi/Amazon-Product-Search-Datasets)
+This is code for paper "[Conversational Product Search Based on Negative Feedback](https://arxiv.org/abs/1909.02071)" [1]
+- We adopt the same dataset and partition as [HEM](https://github.com/QingyaoAi/Amazon-Product-Search-Datasets)[2]
 - Aspects and values are extracted with toolkit by [3]. 
 - Extracted aspect-value lexicons are included in directory "extracted_av_lexicon". Movies&TV is too large for the tool to process, so we divide it into several parts and extract the lexicon for each part individually. 
 The 2nd column in the lexicon file is "aspect|value". The rest columns are not used in our experiments.
