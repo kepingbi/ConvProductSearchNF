@@ -5,8 +5,10 @@ This is code for paper "[Conversational Product Search Based on Negative Feedbac
 - Extracted aspect-value lexicons are included in directory "extracted_av_lexicon". Movies&TV is too large for the tool to process, so we divide it into several parts and extract the lexicon for each part individually. 
 The 2nd column in the lexicon file is "aspect|value". The rest columns are not used in our experiments.
 ## Data
-Please find the data in the paper [here](https://drive.google.com/drive/folders/1ARBX_bIad-eZkwWm3EZ3D13oYCyEhMJz?usp=sharing)
+Please find the data in the paper [here](https://drive.google.com/drive/folders/1ARBX_bIad-eZkwWm3EZ3D13oYCyEhMJz?usp=sharing).
+
 Download the data to your machine and replace `PATH/TO/DATA` in the parameters input to the script with the path where you store the downloaded data. 
+
 Note that there are only three extra files compared with [HEM](https://github.com/QingyaoAi/Amazon-Product-Search-Datasets), which are `lexicon.strict.stemmed.id.sorted.txt`, `av.train.strict.txt.gz`, and `av.test.strict.txt.gz`. 
 ```
 Extra Files: 
